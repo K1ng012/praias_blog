@@ -1,0 +1,148 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background-color: #A8A39F;
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvética, sans-serif;
+}
+
+#area_cabecalho{
+	margin: 10px 20px;
+	background-image: url(../imagens/praia_banner.png);
+	background-repeat: no-repeat;
+	padding: 15px;
+	text-align: center;
+	height: 300px;
+}
+
+#area_logo, #area_menu{
+	padding: 10px;
+}
+
+#cor_logo{
+	color: #454C59;
+}
+
+h1{
+	color: #467302;
+	font-size: 2.5em;
+}
+
+a{
+	text-decoration: none;
+	color: #454C59;
+}
+
+#area_menu{
+	display: block;
+}
+
+#area_cabecalho a:link, #area_cabecalho a:visited{
+	color: #f2f2f2;
+	padding: 8px 12px;
+}
+
+#area_cabecalho a:hover{
+	color: #A68477;
+	text-decoration: underline;
+	background-color: #454C59;
+}
+
+#area_principal{
+	width: 80%;
+	margin: 0px auto;
+	padding: 15px;
+}
+
+#area_postagens, #area_lateral{
+	margin-top: -100px;
+}
+
+#area_postagens{
+	width: 70%;
+	float: right;
+}
+
+#area_lateral{
+	width: 28%;
+	padding: 3px;
+	float: left;
+	background-color: #E3B28B;
+}
+
+.postagem{
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color : #A68477; 
+}
+
+h2{
+	color: #C49491;
+	font-family: 'Times New Roman', serif;
+}
+
+.data_postagem{
+	font-size: 0.8em;
+	border-bottom: 1px solid #d99e6a;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	display: block;
+}
+
+img{
+	max-width: 100%;
+	margin: 10px auto;
+	display: block;
+}
+
+p{
+    text-align: justify;
+    color: #454C59;
+}
+
+#area_rodape{
+	background-color: #454C59;
+	color: #f2f2f2;
+	clear: both;
+	text-align: center;
+	padding: 15px;
+}
+
+.postagem-lateral{
+    font-size: 0.9em;
+    padding: 5px;
+    border-bottom: 2px dotted #000;
+}
+
+h3,h4{
+    color: #454C59;
+    margin-bottom: 3px;
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+}
+
+.conteudo_lateral{
+    background: #E3B28B;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+
+#menu_lateral a{
+	color: #454C59;
+	font-weight: bold;
+	padding: 2px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+#menu_lateral a:hover{
+	display: block;
+	background-color: #C49491;
+	color: #F2E0D0;
+	padding: 5px;
+	margin-bottom: 5px;
+}
